@@ -15,11 +15,11 @@ class CreateStudents extends Migration
     {
         Schema::create('students', function (Blueprint $table) {
             $table->id();
-            $table->string('nim', 10)->index();
-            $table->string('name', 30)->index();
-            $table->string('class', 10)->index();
-            $table->string('departement', 30)->index();
-            $table->string('phone_number', 13)->index();
+            $table->string('nim',10);
+            $table->string('name',30);
+            $table->string('class',10);
+            $table->string('department',30);
+            $table->string('phone_number',13);
             $table->timestamps();
         });
     }
