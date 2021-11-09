@@ -27,6 +27,7 @@
                             <tr>
                                 <td>{{ $s->nim }}</td>
                                 <td>{{ $s->name }}</td>
+                                <td>{{ $s->kelas->class_name }}</td>
                                 <td>{{ $s->class }}</td>
                                 <td>{{ $s->department }}</td>
                                 <td>
@@ -41,6 +42,16 @@
                             @endforeach
                         </tbody>
                     </table>
+                    <div class="form-group">
+<label for="Kelas">Class</label>
+<select class="form-control" name="Kelas">
+@foreach($kelas as $class)
+<option value="{{$class->id}}">
+{{ $class->class_name }}
+</option>
+@endforeach
+</select></br>
+</div>
                 </div>
             </div>
         </div>

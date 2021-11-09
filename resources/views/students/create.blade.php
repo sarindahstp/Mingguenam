@@ -28,3 +28,13 @@ required="required" name="phone_number"></br>
 <button type="submit" name="add" class="btn btn-primary
 float-right">Add Data</button>
 </form>
+<div class="form-group">
+<label for="Kelas">Class</label>
+<select class="form-control" name="Kelas">
+@foreach($kelas as $class)
+<option value="{{$class->id}}">
+{{ $class->class_name }}
+</option>
+@endforeach
+</select></br>
+</div>
