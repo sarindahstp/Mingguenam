@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "5c4512c280cd1efb4fc4d5a386657e84",
+=======
+    "content-hash": "4e38664dc2e1313269ea0f10ec8cbadf",
+>>>>>>> ba7a5c5719bd32033b275f418e057f21aeaf6372
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -123,6 +127,7 @@
             "time": "2021-08-15T20:50:18+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "composer/package-versions-deprecated",
             "version": "1.11.99.4",
             "source": {
@@ -541,6 +546,8 @@
             "time": "2020-05-29T18:28:51+00:00"
         },
         {
+=======
+>>>>>>> ba7a5c5719bd32033b275f418e057f21aeaf6372
             "name": "doctrine/inflector",
             "version": "2.0.4",
             "source": {

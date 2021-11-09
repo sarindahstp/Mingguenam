@@ -4,6 +4,10 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Facades\Hash;
+>>>>>>> ba7a5c5719bd32033b275f418e057f21aeaf6372
 
 class StudentSeeder extends Seeder
 {
@@ -31,12 +35,19 @@ class StudentSeeder extends Seeder
         ]);
 
         DB::table('students')->insert([
+<<<<<<< HEAD
             'nim' =>'2031710026',
+=======
+            'nim' =>'20710026',
+>>>>>>> ba7a5c5719bd32033b275f418e057f21aeaf6372
             'name' =>'Aisyah Ulil Maulina',
             'class' =>'MI-2F',
             'departement' => 'Teknologi Informasi',
             'phone_number' => '08980571729',
         ]);
+<<<<<<< HEAD
 
+=======
+>>>>>>> ba7a5c5719bd32033b275f418e057f21aeaf6372
     }
 }
