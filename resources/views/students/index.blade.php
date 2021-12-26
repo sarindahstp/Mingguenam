@@ -1,31 +1,21 @@
 @extends('layouts.app')
-<<<<<<< HEAD
-=======
-
->>>>>>> ba7a5c5719bd32033b275f418e057f21aeaf6372
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('STUDENT DATA') }}</div>
-<<<<<<< HEAD
-=======
-
->>>>>>> ba7a5c5719bd32033b275f418e057f21aeaf6372
                 <div class="card-body">
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
                     @endif
-<<<<<<< HEAD
-                    <a href="/students/create" class="btn btn-primary">Add Data</a> <br><br>
-=======
 
                     <a href="/students/create" class="btn btn-primary">Add Data</a> <br><br>
+                    <a href="/students/create" class="btn btn-primary">Add Data</a> <br><br>
 
->>>>>>> ba7a5c5719bd32033b275f418e057f21aeaf6372
+
                     <table class="table table-responsive">
                         <thead>
                             <tr>
