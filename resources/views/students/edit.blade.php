@@ -43,7 +43,7 @@ required="required" name="name" value="{{$student->name}}"></br>
 required="required" name="department" value="{{$student->department}}"></br>
  </div>
  <div class="form-group">
- <label for="phone_number">Phone Number</label>
+ <label for="phone_number">Phone Numbers</label>
  <input type="text" class="form-control" 
 required="required" name="phone_number" value="{{$student->phone_number}}"></br>
  </div>
@@ -56,3 +56,4 @@ float-right">Save Changes</button>
     </div>
 </div>
 @endsection
+

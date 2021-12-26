@@ -17,7 +17,7 @@ class UserBaruSeeder extends Seeder
     {
         DB::table('users')->insert([
             'username' => 'admin',
-            'name' => 'Administrator Baru',
+            'name' => 'Administrator Toko',
             'email' =>'admin.baru@admin.com',
             'password' => Hash::make('password'),
         ]);
